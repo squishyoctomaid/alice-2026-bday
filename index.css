@@ -1,0 +1,33 @@
+/* Generic */
+
+:root {
+    --bg: #191919;
+    --bg-secondary: #3A3B3C;
+    --text: #FFF;
+    --success: #6DA34D;
+    --error: #BB3434;
+    font-size: clamp(2.5vh, 1.3rem, 5vw);
+    font-family: Arial, Helvetica, sans-serif;
+    
+    --primary: #B52B65;
+    --secondary: #ED6663;
+    --primary-highlight: #FF9EC7;
+}
+
+/* Page */
+
+html, body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+    background-color: var(--bg);
+    color: var(--text);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
